@@ -110,12 +110,12 @@ extension UIImageView {
         imageLoader:ImageLoader? = nil) {
         
         var _tapRecognizer:TapWithDataRecognizer?
-        gestureRecognizers?.forEach {
-            if let _tr = $0 as? TapWithDataRecognizer {
-                // if found, just use existing
-                _tapRecognizer = _tr
-            }
-        }
+//        gestureRecognizers?.forEach {
+//            if let _tr = $0 as? TapWithDataRecognizer {
+//                // if found, just use existing
+//                _tapRecognizer = _tr
+//            }
+//        }
         
         isUserInteractionEnabled = true
         
